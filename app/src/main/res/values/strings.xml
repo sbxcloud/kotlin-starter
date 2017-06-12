@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Kotlin</string>
-    <string name="sbx_domain">85</string>
-    <string name="sbx_app_key">bcd864-abb4fb-48bab1-34fbca-ca76a3</string>
+    <string name="sbx_domain">110</string>
+    <string name="sbx_app_key">d4cd3cac-043a-48ab-9d06-18aa4fd23cbd</string>
     <string name="sbx_email_key"></string>
 
     <string name="sbx_login_success_message">Logueado Correctamente</string>

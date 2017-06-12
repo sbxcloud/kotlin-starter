@@ -1,20 +1,16 @@
 package com.sbxcloud.android.kotlin.model
 
-import android.databinding.BaseObservable
+
 import android.databinding.Bindable
-import android.databinding.Observable
-import android.databinding.PropertyChangeRegistry
-import android.util.Log
 import com.android.databinding.library.baseAdapters.BR
-import com.sbxcloud.android.kotlin.binding.SbxUserBinding
 import com.sbxcloud.android.sbxcloudsdk.auth.user.*
 import com.sbxcloud.android.sbxcloudsdk.net.auth.SbxUser
-import com.sbxcloud.android.sbxcloudsdk.query.annotation.SbxKey
+import com.sbxcloud.android.sbxcloudsdk.net.observable.SbxUserObservable
 
 /**
  * Created by lgguzman on 29/05/17.
  */
-class User () : SbxUserBinding(){
+class User () : SbxUserObservable(){
 
     @SbxNameField
     @get:Bindable
