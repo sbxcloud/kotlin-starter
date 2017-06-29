@@ -4,6 +4,13 @@
     <string name="sbx_app_key">d4cd3cac-043a-48ab-9d06-18aa4fd23cbd</string>
     <string name="sbx_email_key"></string>
 
-    <string name="sbx_login_success_message">Logueado Correctamente</string>
+    <string name="sbx_login_success_message">logued Succesfully</string>
+    <string name="sbx_sign_success_message">signed Succesfully</string>
 
+    <string name="activity_login_button">Log In</string>
+    <string name="activity_login_sign_button">Sign Up</string>
+    <string name="activity_login_name_hint">Name</string>
+    <string name="activity_login_username_hint">Username</string>
+    <string name="activity_login_email_hint">Email</string>
+    <string name="activity_login_password_hint">Password</string>
 </resources>

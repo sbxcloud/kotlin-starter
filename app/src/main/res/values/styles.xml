@@ -16,12 +16,22 @@
         <item name="colorControlHighlight">@color/white</item>
         <item name="android:textColorHint">@color/iron</item>
 
-
-
+        <!-- EditText theme. -->
+        <item name="android:editTextStyle">@style/App_EditTextStyle</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- Button theme. -->
         <item name="colorButtonNormal">@color/colorPrimaryDarker</item>
         <item name="android:colorButtonNormal">@color/colorPrimaryDarker</item>
+        <!-- ToolBar theme. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="App_EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
 
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_screen</item>
@@ -40,6 +50,9 @@
         <item name="colorControlHighlight">@color/white</item>
         <item name="android:textColorHint">@color/iron</item>
 
+        <!-- EditText theme. -->
+        <item name="android:editTextStyle">@style/App_EditTextStyle</item>
+        <!-- Button theme. -->
         <item name="colorButtonNormal">@color/colorPrimaryDarker</item>
         <item name="android:colorButtonNormal">@color/colorPrimaryDarker</item>
     </style>
